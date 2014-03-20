@@ -1,0 +1,5 @@
+examples
+node_modules
+.DS_Store
+npm_debug.log
+.data
