@@ -1,7 +1,7 @@
 {
   "name": "ustates",
   "description": "US state by index, by name and by abbreviation",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Jonathan Brumley <cayasso@gmail.com>",
   "main": "index.js",
   "repository": {
