@@ -1,5 +1,9 @@
 #ustates
 
+
+[![Build Status](https://travis-ci.org/cayasso/ustates.png?branch=master)](https://travis-ci.org/cayasso/ustates)
+[![NPM version](https://badge.fury.io/js/ustates.png)](http://badge.fury.io/js/ustates)
+
 Mapping US state codes by index, name or abbreviation.
 
 ## Installation
