@@ -2,17 +2,27 @@
   "name": "ustates",
   "description": "US state by index, by name and by abbreviation",
   "version": "0.1.0",
-  "author": {
-    "name": "Jonathan Brumley",
-    "email": "cayasso@gmail.com"
-  },
+  "author": "Jonathan Brumley <cayasso@gmail.com>",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/cayasso/ustates.git"
   },
-  "keywords": ["state", "postal", "code", "index", "states", "America", "US", "United States"],
+  "keywords": [
+    "US",
+    "state",
+    "postal",
+    "code",
+    "index",
+    "states",
+    "America",   
+    "United States"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cayasso/ustates/issues"
+  },
+  "devDependencies": {
+    "mocha": "*"
   }
 }

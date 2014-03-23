@@ -55,8 +55,9 @@ var indexes = []
   };
 
 Object.keys(states).forEach(function each(code) {
-  indexes[states[code].index] = states[code];
-  names[states[code].name] = states[code];
+  var state = states[code];
+  indexes[state.index] = state;
+  names[state.name] = state;
 });
 
 states.index = indexes;
