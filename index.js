@@ -58,6 +58,8 @@ Object.keys(states).forEach(function each(code) {
   var state = states[code];
   indexes[state.index] = state;
   names[state.name] = state;
+  names[state.name.toUpperCase()] = state;
+  names[state.name.toLowerCase()] = state;
 });
 
 states.index = indexes;

@@ -15,4 +15,12 @@ describe('ustates', function () {
     assert.deepEqual(states.name['District Of Columbia'], {"index":8,"name":"District Of Columbia","code":"DC"});
   });
 
+  it('it should get state by uppercase name', function () {
+    assert.deepEqual(states.name['DISTRICT OF COLUMBIA'], {"index":8,"name":"District Of Columbia","code":"DC"});
+  });
+
+  it('it should get state by lowercase name', function () {
+    assert.deepEqual(states.name['district of columbia'], {"index":8,"name":"District Of Columbia","code":"DC"});
+  });
+
 });
