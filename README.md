@@ -25,11 +25,9 @@ console.log(states.index[45]); //-> {"index":45,"name":"Vermont","code":"VT"}
 
 // by name
 console.log(states.name['District Of Columbia']); //-> {"index":8,"name":"District Of Columbia","code":"DC"}
-```
 
 // by lower case name
 console.log(states.name['DISTRICT OF COLUMBIA']); //-> {"index":8,"name":"District Of Columbia","code":"DC"}
-```
 
 // by upper case name
 console.log(states.name['district of columbia']); //-> {"index":8,"name":"District Of Columbia","code":"DC"}
@@ -38,7 +36,7 @@ console.log(states.name['district of columbia']); //-> {"index":8,"name":"Distri
 ## See Also
 
  * [iso-3166-2](https://www.npmjs.org/package/iso-3166-2) addresses the same problem space, but works for all countries in the world. See the docs there for the API differences. 
- 
+
 ## License
 
 (The MIT License)
