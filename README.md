@@ -27,6 +27,14 @@ console.log(states.index[45]); //-> {"index":45,"name":"Vermont","code":"VT"}
 console.log(states.name['District Of Columbia']); //-> {"index":8,"name":"District Of Columbia","code":"DC"}
 ```
 
+// by lower case name
+console.log(states.name['DISTRICT OF COLUMBIA']); //-> {"index":8,"name":"District Of Columbia","code":"DC"}
+```
+
+// by upper case name
+console.log(states.name['district of columbia']); //-> {"index":8,"name":"District Of Columbia","code":"DC"}
+```
+
 ## License
 
 (The MIT License)
